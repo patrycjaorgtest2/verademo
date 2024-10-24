@@ -9,7 +9,6 @@ on:
   # Schedule your job:
   schedule:
     - cron: '11 22 * * *' # Scans every day at 22:11 UTC.
-  # Manual trigger from github action UI
   workflow_dispatch:
 
 jobs:
